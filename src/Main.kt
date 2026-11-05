@@ -74,35 +74,42 @@ fun main() {
 //    for (i in 1..10 step 2) {
 //        println(i)
 //    }
+
 //    for (i in 1..3) {
 //        println("salom")
 //    }
+
 //    for (i in 1 until  10 step 3) {
 //        println(i)
 //    }//ostirish
+
 //    for (i in 1 downTo 10 step 2) {
 //        println(i)
-//    }//kmayish
+//    }//kamayish
 //
 //    for (i in 1 until 100 step 2) {
 //        println(" Toq sonlar " + i)
 //    }
 //    println()
+
 //    for (n in 2 until 100 step 2) {
 //        println("Toq sonlar " + n)
 //    }
+
 // 70 - misol
 //    val a = 5
 //    val n = 6
 //    for (i in 1..n) {
 //        print(a)
 //    }
+
 //    val s = 5
 //    val f = 11
 //    var n = 0
 //    for (i in s + 1 until f) {
 //        n += i
 //    }
+
 //    print(n)
 //    val a = 2
 //    val n = 4
@@ -150,6 +157,7 @@ fun main() {
 //    for (i in a + 1 until b) {
 //        summ = +i
 //    }
+
 //    println(summ)
 //    val a = 12
 //    val b = 24
@@ -158,11 +166,13 @@ fun main() {
 //            println(i)
 //        }
 //    }
+
 //    for (i in 100 until 1000) {
 //        if (i / 10 % 10 == 7) {
 //            println(i)
 //        }
 //       }
+
 //    for (i in 100 until 1000) {
 //        if (i / 100 == 3 && i % 10 == 3) {
 //            println(i)
@@ -172,11 +182,11 @@ fun main() {
 //    for (i in 10..99) {
 //        if (i % 10 + i / 10 == 9 || i % 10 + i / 10 == 15) {
 //            println(i)
-//}
+//   }
 //    }
 //    for (i in 100..1000) {
 //        if (i / 100  + i / 10 % 10 + i % 10 == 20) {
-//println(i)
+//         println(i)
 //        }
 //    }
 
@@ -249,25 +259,13 @@ fun main() {
 //        c*= i
 //    }
 //    println(c)
+
 //    var i = 0
 //    while (i < 5) {
 //        println(i)
 //        i++
 //    }
-//    var i = 0
-//    do {
-//        println(i)
-//        i++
-//    } while (i < 5)
-//    do {
-//        println("salom")
-//    } while (4 < 3)
-//    var a = 123
-//    var sum = 0
-//    while (a>0){
-//        sum++
-//        a/=10
-//    }
+
 //       println(sum)
 //    val s = 2
 //    val d = 6
@@ -276,14 +274,43 @@ fun main() {
 //            print(i)
 //        }
 //    }
+
 //    var a = 12
-//    var newnumber = 0
+///    var newnumber = 0
 //    while (a > 0) {
 //        newnumber = newnumber * 10 + a % 10
 //        a /= 10
 //    }
 //    println(newnumber)
 
+//    var i = 0
+//    while (i < 254) {
+//        println(i)
+//        i++ }
+
+//    var number = 456
+//    var count = 0
+//    while (number > 0) {
+//        count++
+//        number /= 10
+//    }
+//    println(count)
+
+//    val a = 2
+//    val b = 6
+//    for (i in 2..6) {
+//        for (j in 1..i) {
+//            print(i)
+//        }
+//    }
+
+//    val number = 323
+//    var newNumber = 0
+//    while (number > 0) {
+//        newNumber = newNumber * 10 + number % 10
+//        number /= 10
+//    }
+//    println(newNumber)
 
 
 }
