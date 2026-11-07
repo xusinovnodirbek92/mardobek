@@ -13,8 +13,8 @@ fun main() {
 //    }
 //    println(result)
 //    Outputs"Thursday"(day4)
-
-
+//
+//
 //    val months = 9
 //    val result = when (months) {
 //        1 -> "Yanvar"
@@ -30,8 +30,8 @@ fun main() {
 //        11 -> "Noyabr"
 //        12 -> "Dekabr"
 //        else -> "Invalid months"
-
-
+//
+//
 //    val months = arrayOf(
 //        "January",
 //        "February",
@@ -119,13 +119,12 @@ fun main() {
 //    }
 //    println(sum)
 
-
 //    val cars = arrayOf("Volvo", "BMW", "Mazda") ///Foreach
 //    for (x in cars) {
 //        println(x)
 //    }
 
-    //1->10
+//    1->10
 //    for (i in 1..10 step 2) { ///For
 //        println(i)
 //    }
@@ -312,5 +311,92 @@ fun main() {
 //    }
 //    println(newNumber)
 
+//    var i = 0
+//    while (i < 10) {
+//        if (i == 4) {
+//            i++
+//            continue
+//        }
+//        println(i)
+//        i++
+//    }
 
+//    val n = 6.0
+//    var i = 1.0
+//    var s = 1.0
+//    while (i <= 1 + n / 10) {
+//        i += 0.1
+//        s *= i
+//    }
+//    println(s)
+
+//    val a = 12
+//    var count = 0
+//    var sum = 0
+//    while (a > 0) {
+//        count++
+//        sum += a % 10
+//        a /= 10
+//    }
+//    println(count)
+//    println(sum)
+
+//    var i = 0
+//    while (i < 10) {
+//        println(i)
+//        i++
+//        if (i == 4) {
+//            break
+//        }
+//    }
+
+//    var i = 0
+//    while (i < 10) {
+//        if (i == 4) {
+//            i++
+//            continue
+//        }
+//        println(i)
+//        i++
+//    }
+
+//    var count = 0
+//    val scanner = Scanner(System.`in`)
+//    while (true) {
+//        val n = scanner.nextInt()
+//        if (n % 5 == 0) {
+//            count++
+//        }
+//        if (n < 0) {
+//            break
+//        }
+//    }
+//    println(count)
+
+//    var n = 12
+//    var sum = 0
+//    var count = 0
+//    while (n > 0) {
+//        sum += n % 10
+//        count++
+//        n /= 10
+//    }
+//    println(sum)
+//    println(count)
+
+    var n = 12
+    while (true) {
+        if (n < 10) {
+            println("manfiy son")
+            break
+        }
+        if (n % 10 == 5) println("5 tarkibida bor")
+        break
+    }
+    if (n < 10) {
+        println("5 tarkibida yo'q")
+        break
+    }
+    n /= 10
+}
 }
